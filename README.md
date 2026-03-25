@@ -9,9 +9,20 @@ Personal academic website for Giorgio Bongermino.
 - `teaching.html` – teaching activities
 - `projects.html` – projects and ongoing work
 - `publications.html` – published papers and working papers
+- `presentations.html` – presentations with password-protected slides area
 - `contact.html` – contact links
 - `styles.css` – shared styles
-- `script.js` – homepage interaction and dynamic CV link storage
+- `script.js` – homepage interaction + presentations password gate
+
+## Updating key content
+
+- **CV button**: edit the OneDrive URL in `index.html` (`Open CV (OneDrive)` link).
+- **Teaching links**: edit placeholders in `teaching.html` under Courses and Faculty/Colleagues.
+- **Publications**: edit `publications.html` cards.
+- **Presentations area**:
+  1. set your password in `script.js` (`slidesPassword` value)
+  2. upload PDF slides into a `slides/` folder
+  3. update links in `presentations.html`
 
 ## Publishing workflow
 
