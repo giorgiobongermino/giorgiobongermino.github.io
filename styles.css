@@ -113,8 +113,28 @@ button {
   cursor: pointer;
 }
 
+button.secondary {
+  background: #64748b;
+}
+
 button:hover {
   filter: brightness(1.08);
+}
+
+input[type="url"] {
+  width: 100%;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #cdd6e2;
+  border-radius: 8px;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 
 .highlight {

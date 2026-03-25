@@ -8,9 +8,10 @@ Personal academic website for Giorgio Bongermino.
 - `research.html` – research overview
 - `teaching.html` – teaching activities
 - `projects.html` – projects and ongoing work
+- `publications.html` – published papers and working papers
 - `contact.html` – contact links
 - `styles.css` – shared styles
-- `script.js` – homepage interaction
+- `script.js` – homepage interaction and dynamic CV link storage
 
 ## Publishing workflow
 
