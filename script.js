@@ -1,8 +1,8 @@
 const activityIdeas = [
-  "Leggi le ultime attività nella pagina Progetti.",
-  "Visita la pagina Ricerca per i principali interessi scientifici.",
-  "Controlla la pagina Didattica per corsi e supervisione.",
-  "Usa i link esterni per ORCID e profilo UniBo."
+  "Read the latest activities on the Projects page.",
+  "Visit the Research page for key scientific interests.",
+  "Check the Teaching page for courses and supervision.",
+  "Use the external links for ORCID and UniBo profile."
 ];
 
 const tipButton = document.getElementById("new-tip-btn");
