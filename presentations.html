@@ -27,23 +27,50 @@
 
   <main>
     <section class="section card">
-      <h2>Protected slides area</h2>
-      <p>Use the password to view/download private slides.</p>
-      <label for="slides-password-input">Password</label>
-      <input id="slides-password-input" type="password" placeholder="Enter password" />
-      <button id="slides-unlock-btn">Unlock slides</button>
-      <p id="slides-access-msg" class="highlight">Slides are locked.</p>
-    </section>
-
-    <section id="slides-private-area" class="section card hidden">
-      <h2>Private presentations</h2>
-      <p class="links-list">
-        <a href="slides/presentation-1.pdf" target="_blank" rel="noopener noreferrer">Presentation 1 (PDF)</a>
-        <a href="slides/presentation-2.pdf" target="_blank" rel="noopener noreferrer">Presentation 2 (PDF)</a>
+      <h2>How access works</h2>
+      <p>
+        For each presentation you can choose either:
+        <strong>Public</strong> (open link) or <strong>Protected</strong> (OneDrive/SharePoint link with provider-managed password or restricted recipients).
       </p>
       <p class="highlight">
-        To add/replace slides: upload your PDF files in a `slides/` folder and update these links.
+        Security is enforced by the storage provider link settings, not by browser JavaScript.
       </p>
+    </section>
+
+    <section class="section card-grid">
+      <article class="card">
+        <p><span class="badge badge-public">Public</span></p>
+        <h3>Presentation title 1</h3>
+        <p class="small-meta">Conference / Seminar, year</p>
+        <p>
+          <strong>Abstract:</strong> Brief summary of the talk. Describe goals, methods, and key findings in 2–4 lines.
+        </p>
+        <p class="links-list">
+          <a class="button-link" href="#" target="_blank" rel="noopener noreferrer">Download slides</a>
+        </p>
+      </article>
+
+      <article class="card">
+        <p><span class="badge badge-protected">Protected</span></p>
+        <h3>Presentation title 2</h3>
+        <p class="small-meta">Workshop / Department talk, year</p>
+        <p>
+          <strong>Abstract:</strong> Brief summary of ongoing work and motivation. Add the most relevant technical contribution.
+        </p>
+        <p class="links-list">
+          <a class="button-link" href="https://onedrive.live.com/" target="_blank" rel="noopener noreferrer">Open protected slides</a>
+        </p>
+      </article>
+    </section>
+
+    <section class="section card">
+      <h2>How to add a new presentation</h2>
+      <ol>
+        <li>Duplicate one card in this page.</li>
+        <li>Set title, date/source, and add a short abstract below the title.</li>
+        <li>Choose badge: <code>badge-public</code> or <code>badge-protected</code>.</li>
+        <li>For protected slides, use a provider-managed protected link (OneDrive/SharePoint).</li>
+      </ol>
     </section>
   </main>
 

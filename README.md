@@ -9,20 +9,26 @@ Personal academic website for Giorgio Bongermino.
 - `teaching.html` – teaching activities
 - `projects.html` – projects and ongoing work
 - `publications.html` – published papers and working papers
-- `presentations.html` – presentations with password-protected slides area
+- `presentations.html` – presentations and slides links (public/protected per item)
 - `contact.html` – contact links
 - `styles.css` – shared styles
-- `script.js` – homepage interaction + presentations password gate
+- `script.js` – homepage interaction
 
 ## Updating key content
 
 - **CV button**: edit the OneDrive URL in `index.html` (`Open CV (OneDrive)` link).
 - **Teaching links**: edit placeholders in `teaching.html` under Courses and Faculty/Colleagues.
 - **Publications**: edit `publications.html` cards.
-- **Presentations area**:
-  1. set your password in `script.js` (`slidesPassword` value)
-  2. upload PDF slides into a `slides/` folder
-  3. update links in `presentations.html`
+- **Presentations** (item-by-item):
+  1. duplicate a card in `presentations.html`
+  2. set title and add a short abstract below the title
+  3. choose access type badge: `badge-public` or `badge-protected`
+  4. set link: public URL or provider-protected URL (OneDrive/SharePoint)
+
+## Security note
+
+Do not rely on client-side JavaScript passwords for private content on static hosting.
+Use server-side/storage access control instead.
 
 ## Publishing workflow
 
