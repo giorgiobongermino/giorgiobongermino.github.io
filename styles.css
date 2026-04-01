@@ -166,3 +166,22 @@ input[type="password"] {
   color: #64748b;
   font-size: 0.9rem;
 }
+
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.course-table th,
+.course-table td {
+  border: 1px solid #dbe3ee;
+  padding: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.course-table th {
+  background: #f1f5f9;
+}

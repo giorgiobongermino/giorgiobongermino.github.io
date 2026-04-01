@@ -16,8 +16,8 @@ Personal academic website for Giorgio Bongermino.
 
 ## Updating key content
 
-- **CV button**: edit the OneDrive URL in `index.html` (`Open CV (OneDrive)` link).
-- **Teaching links**: edit placeholders in `teaching.html` under Courses and Faculty/Colleagues.
+- **CV section**: edit OneDrive CV and LinkedIn URLs in `index.html`.
+- **Teaching Hub**: edit the course table in `teaching.html` (course page, professor/tutor, academic year).
 - **Publications**: edit `publications.html` cards.
 - **Presentations** (item-by-item):
   1. duplicate a card in `presentations.html`
