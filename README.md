@@ -25,19 +25,7 @@ Personal academic website for Giorgio Bongermino.
   3. choose access type badge: `badge-public` or `badge-protected`
   4. set link: public URL or provider-protected URL (OneDrive/SharePoint)
 
-## Security note
 
-Do not rely on client-side JavaScript passwords for private content on static hosting.
-Use server-side/storage access control instead.
-
-## Publishing workflow
-
-This repository is a static website (HTML/CSS/JS). No build step is required.
-
-1. Commit your changes to `work`.
-2. Open a pull request from `work` to `main`.
-3. Merge the PR.
-4. Ensure GitHub Pages is configured to publish from `main`.
 
 ## Local preview
 
